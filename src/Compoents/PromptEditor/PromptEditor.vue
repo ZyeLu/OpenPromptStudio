@@ -37,7 +37,7 @@
                 <select v-model="promptEditor.data.server">
                     <option :value="LocalTrasnslateServer" :title="LocalTrasnslateServer">本地翻译接口</option>
                     <option value="https://indexfs.moonvy.com:19213/prompt-studio">腾讯翻译</option>
-                    <option value="https://indexfs.moonvy.com:19213/prompt-studio2">腾讯翻译 2</option>
+                    <option value="https://indexfs.moonvy.com:19213/prompt-studio3">腾讯翻译 2</option>
                     <option value="https://indexfs.moonvy.com:19213/prompt-studio/ai" disabled>
                         OpenAI GPT-3.5 (WIP)
                     </option>
